@@ -10,10 +10,11 @@ This project simulates a contact form submission using TypeScript and MockAPI. T
 - Fully responsive for both desktop and mobile devices.
 
 ## Deployed Link
-You can view the live project here: (https://guvi-contact-form.netlify.app/)  <!-- Replace # with the actual URL -->
+You can view the live project here:https://guvi-contact-form.netlify.app/ <!-- Replace # with the actual URL -->
 
-### Success Message (Desktop Version)
-![Desktop Success](./assets/desktop-success.png)
+### Success Message
+![Screenshot 2024-10-21 205933](https://github.com/user-attachments/assets/43ac541c-3e2f-4288-b931-93188bf1b1f4)
+
 
 ### Success Message (Mobile Version)
 ![Mobile Success](./assets/mobile-success.png)
@@ -23,18 +24,10 @@ Here’s the data submitted to the MockAPI:
 
 ![MockAPI Results](./assets/mockapi-results.png)
 
-## How It Works
-1. Fill out the form fields (Name, Email, Contact Number, Subject, and Message).
-2. Upon clicking the **Send** button, the form data is validated.
-3. If the validation passes, the form data is sent to the MockAPI endpoint using the HTTP POST method.
-4. A success message ("Form Submitted Successfully") is displayed upon successful submission.
-5. If the API call fails, an error message ("Submission Failed") is shown.
-
 ## Technologies Used
 - TypeScript
 - HTML, CSS (for styling and responsiveness)
 - MockAPI (for simulating backend API calls)
-- Responsive Design (Mobile and Desktop)
 
 ## How to Run Locally
 1. Clone the repository:
