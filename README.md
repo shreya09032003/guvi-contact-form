@@ -15,9 +15,12 @@ You can view the live project here:https://guvi-contact-form.netlify.app/ <!-- R
 ### Success Message
 ![Screenshot 2024-10-21 205933](https://github.com/user-attachments/assets/43ac541c-3e2f-4288-b931-93188bf1b1f4)
 
+### Desktop Version
+![Screenshot 2024-10-21 210113](https://github.com/user-attachments/assets/68df6c73-fc25-4561-addf-428056820c02)
 
-### Success Message (Mobile Version)
-![Mobile Success](./assets/mobile-success.png)
+### Mobile Version
+![Screenshot_2024-10-21-21-11-56-36_40deb401b9ffe8e1df2f1cc5ba480b12](https://github.com/user-attachments/assets/3caaa1f5-02ab-46e3-b3de-905dc5091b91)
+![Screenshot_2024-10-21-21-11-58-87_40deb401b9ffe8e1df2f1cc5ba480b12](https://github.com/user-attachments/assets/40e62d4c-0a47-4ab2-a3c6-fe70668fa2bd)
 
 ### MockAPI Results
 Here’s the data submitted to the MockAPI:
