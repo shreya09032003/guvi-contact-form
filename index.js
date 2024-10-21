@@ -60,7 +60,7 @@ form.addEventListener("submit", function (event) { return __awaiter(_this, void 
                 _a.label = 1;
             case 1:
                 _a.trys.push([1, 3, , 4]);
-                return [4 /*yield*/, fetch("https://6713e140690bf212c760121b.mockapi.io/contacts", {
+                return [4 /*yield*/, fetch("https://67137e836c5f5ced66269865.mockapi.io/api", {
                         method: "POST",
                         headers: { "Content-Type": "application/json" },
                         body: JSON.stringify(data),

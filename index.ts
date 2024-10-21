@@ -33,7 +33,7 @@ form.addEventListener("submit", async (event: Event) => {
 
   try {
     const response = await fetch(
-      "https://6713e140690bf212c760121b.mockapi.io/contacts",
+      "https://67137e836c5f5ced66269865.mockapi.io/api",
       {
         method: "POST",
         headers: { "Content-Type": "application/json" },
