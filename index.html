@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Guvi Contact Form</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="contact-info">
+      <h2>Contact Us</h2>
+      <p>Let us know your queries, feedbacks, and enquiries. We are here to support you 24/7.</p>
+      <div class="info-item">
+        <img src="https://www.guvi.in/assets/Dln4fx0b-phone.webp" alt="Phone" />
+        <div class="options">
+          <div class="info-label">Give us a call</div>
+          <span>+91 9736097320</span>
+        </div>
+      </div>
+      <div class="info-item">
+        <img src="https://www.guvi.in/assets/DRGUPHXp-message.webp" alt="Email" />
+        <div class="options">
+          <div class="info-label">Write to us</div>
+          <span>cs@guvi.in</span>
+        </div>
+      </div>
+      <div class="info-item">
+        <img src="https://www.guvi.in/assets/BrgqbmZY-location.webp" alt="Location" />
+        <div class="options">
+          <div class="info-label">Visit us in Chennai @</div>
+          <span>IITM Research park - phase 2, module #9, 3rd floor, D block, Kanagam Rd, Tharamani, Chennai, Tamil Nadu 600113</span>
+          <br> <br>
+          <div class="info-label">Visit us in Noida @</div>
+          <span>A11, HCL Corporation Pvt. Ltd, Block A, Sector 3, Noida, Uttar Pradesh 201307</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-container">
+      <img src="https://www.guvi.in/assets/CxqwidpJ-form.webp" alt="Form Image" />
+
+      <h2>Say <span class="highlight">Hello!</span></h2>
+      <p style="margin-bottom:5% ;">Feel free to stop by and say hi!</p>
+      <form id="contactForm">
+        <label for="name">Name <span class="asterisk" style="color: red;">*</span></label>
+        <input type="text" id="name" required  />
+        <span class="error-icon" id="nameError"></span>
+
+        <label for="email">E-mail id <span class="asterisk" style="color: red;">*</span></label>
+        <input type="email" id="email" required />
+        <span class="error-icon" id="emailError"></span>
+
+        <label for="contactNumber">Contact Number <span class="asterisk" style="color: red;">*</span></label>
+        <input type="text" id="contactNumber" required />
+        <span class="error-icon" id="contactNumberError"></span>
+
+        <label for="subject">Subject <span class="asterisk" style="color: red;">*</span></label>
+        <input type="text" id="subject" required  />
+        <span class="error-icon" id="subjectError"></span>
+
+        <label for="message">Message <span class="asterisk" style="color: red;">*</span></label>
+        <textarea id="message" required ></textarea>
+        <span class="error-icon" id="messageError"></span>
+
+        <button type="submit">Send</button>
+      </form>
+      <div id="responseMessage"></div>
+    </div>
+  </div>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <img src="https://www.guvi.in/assets/Cm3xXkES-submit.webp" alt="Submission Success" />
+      <h2>Your submission is successful!</h2>
+      <p>Our team will reach out to you shortly.</p>
+      <button id="backButton">Back</button>
+    </div>
+  </div>
+  
+  <img src="https://www.guvi.in/assets/CEk7dWI_-left_bottom.webp" alt="Corner Image Top" class="corner-image-top" />
+  <img src="https://www.guvi.in/assets/CEk7dWI_-left_bottom.webp" alt="Corner Image Bottom" class="corner-image-bottom" />
+
+  <script src="index.js" type="module"></script>
+</body>
+</html>
