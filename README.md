@@ -3,7 +3,7 @@
 This project simulates a contact form submission using TypeScript and MockAPI. The form includes validation and error handling, and the data is sent to a mock REST API endpoint. The project is fully responsive, working on both desktop and mobile devices.
 
 ## Deployed Link
-You can view the live project here:https://guvi-contact-form.netlify.app/
+You can view the live project here:[https://guvi-contact-form.netlify.app/](https://guvi-contact-form.netlify.app/)
 
 ### Success Message
 ![Screenshot 2024-10-21 205933](https://github.com/user-attachments/assets/43ac541c-3e2f-4288-b931-93188bf1b1f4)
